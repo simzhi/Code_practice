@@ -1,3 +1,6 @@
+#Write a Python function that takes an array of integers and a target integer. 
+#The function should return the index of the target integer in the array using pointers.
+
 import numpy as np
 def search_array(array, target):
     left, right = 0, len(array) -1
